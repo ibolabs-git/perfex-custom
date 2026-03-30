@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - DEPLOYPATH="/obc"
+    - /bin/cp application/helpers/custom_fields_helper.php ${DEPLOYPATH}/application/helpers/custom_fields_helper.php
+    - /bin/cp application/views/admin/invoice_items/item.php ${DEPLOYPATH}/application/views/admin/invoice_items/item.php
